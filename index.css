@@ -1,0 +1,134 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+  background-color: #e5e5e5;
+  color: #000;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+}
+#search-div {
+  display: flex;
+  width: 364px;
+  background: #cfc8c84c;
+}
+#search-div input {
+  width: 80%;
+  text-align: left;
+  padding-left: 10px;
+  background: #cfc8c84c;
+}
+#search-logo {
+  width: 20%;
+}
+.nav-main ul {
+  display: flex;
+  list-style: none;
+}
+.nav-links {
+  margin: 0 20px;
+  font-weight: 600;
+}
+#media-nav{
+  display: none;
+}
+#hero-section {
+  background: #ffffff79;
+  margin: 10px 50px;
+}
+#hero {
+  margin: 16px 20px;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+}
+#footer-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 36px;
+  background: #ffffff;
+}
+#contact {
+  display: flex;
+  flex-direction: column;
+}
+#contact input:nth-of-type(1),
+#contact input:nth-of-type(2) {
+  background: #ead9d998;
+  margin: 5px 0;
+  height: 32px;
+  width: 300px;
+  border: none;
+  border-radius: 4px;
+  padding: 5px;
+}
+#contact input:nth-of-type(3) {
+  background: #ead9d998;
+  margin: 5px 0;
+  height: 72px;
+  width: 300px;
+  border: none;
+  border-radius: 4px;
+  padding: 5px;
+}
+#contact button {
+  background-color: #bf7d01e7;
+  height: 36px;
+  width: 108px;
+  border-radius: 5px;
+  border: none;
+}
+#site-map-list {
+  list-style: none;
+}
+#link-details {
+  display: flex;
+  flex-direction: column;
+}
+#link-details span:nth-child(3) {
+  display: flex;
+  flex-direction: row;
+}
+#copy {
+  align-self: center;
+}
+@media (max-width: 768px) {
+  #main-logo{
+    display: none;
+    
+  }
+  
+  
+  .nav-main {
+    display: none;
+  }
+  #media-nav{
+    display: block;
+    font-weight: 800;
+    font-size: 28px;
+  }
+  #search-div{
+    width: 200px;
+  }
+  #hero p:nth-child(3){
+    display: none;
+  }
+  #footer-container {
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+  }
+  #contact,
+  #site-map-list,
+  #quick-links {
+    margin: 12px 0;
+  }
+}
