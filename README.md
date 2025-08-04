@@ -26,7 +26,7 @@
  ---
  ![media1](./md/media.png) 
  ---
- ![mediaTwo](./md/mediatwo.png) 
+ ![mediaTwo](./md/mediaTwo.jpg)
 
 
 ---
