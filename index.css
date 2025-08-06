@@ -14,6 +14,9 @@ header {
   justify-content: space-between;
   background-color: #fff;
 }
+#media-logo{
+  display:none;
+}
 #search-div {
   display: flex;
   width: 364px;
